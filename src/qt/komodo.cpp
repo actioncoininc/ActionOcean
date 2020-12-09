@@ -626,9 +626,14 @@ int main(int argc, char *argv[])
 {
     SetupEnvironment();
 
+    char* defaultArguments[] = {(char*)"KomodoOceanGUI.exe", (char*)"-ac_name=ACTN", (char*)"-ac_supply=1799000000", (char*)"-ac_reward=10000000000"
+                                , (char*)"-ac_halving=1051200", (char*)"-ac_decay=50000000", (char*)"-ac_end=5256000"
+                                , (char*)"-ac_staked=100", (char*)"-ac_cc=69", (char*)"-ac_snapshot=1440", (char*)"-addnode=35.225.176.50"};
+    int argumentsCount = 11;
+
     /// 1. Parse command-line options. These take precedence over anything else.
     // Command-line options take precedence:
-    ParseParameters(argc, argv);
+    ParseParameters(argumentsCount, defaultArguments);
 
     // Do not refer to data directory yet, this can be overridden by Intro::pickDataDirectory
 
@@ -642,7 +647,7 @@ int main(int argc, char *argv[])
     Q_INIT_RESOURCE(komodo);
     Q_INIT_RESOURCE(komodo_locale);
 
-    KomodoApplication app(argc, argv);
+    KomodoApplication app(argumentsCount, defaultArguments);
 #if QT_VERSION > 0x050100
     // Generate high-dpi pixmaps
     QApplication::setAttribute(Qt::AA_UseHighDpiPixmaps);
@@ -747,7 +752,7 @@ int main(int argc, char *argv[])
     }
 #ifdef ENABLE_WALLET
     // Parse URIs on command line -- this can affect Params()
-    PaymentServer::ipcParseCommandLine(argc, argv);
+    PaymentServer::ipcParseCommandLine(argumentsCount, defaultArguments);
 #endif
 
     QScopedPointer<const NetworkStyle> networkStyle(NetworkStyle::instantiate(QString::fromStdString(Params().NetworkIDString())));
