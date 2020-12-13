@@ -1,9 +1,5 @@
 # ActionOcean (action-qt) #
 
-![Downloads](https://img.shields.io/github/downloads/DeckerSU/KomodoOcean/total)
-
-![](./doc/images/komodo-qt-promo-2020-01.jpg)
-
 Action-Qt (ActionOcean) is available for three OS platforms - Windows, Linux, MacOS.
 
 Use the following scripts to build:
