@@ -19,7 +19,7 @@ sudo apt-get install build-essential pkg-config libc6-dev m4 g++-multilib autoco
 
 ```shell
 git clone https://github.com/actioncoininc/ActionOcean --branch static --single-branch
-cd komodo
+cd ActionOcean
 ./zcutil/fetch-params.sh
 # -j8 = using 8 threads for the compilation - replace 8 with number of threads you want to use
 ./zcutil/build-linux.sh -j8
@@ -44,10 +44,9 @@ brew install binutils
 brew install protobuf
 brew install coreutils
 brew install wget
-# Clone the Komodo repo
+# Clone the ActionOcean repo
 git clone https://github.com/actioncoininc/ActionOcean --branch static --single-branch
-# Change master branch to other branch you wish to compile
-cd komodo
+cd ActionOcean
 ./zcutil/fetch-params.sh
 # -j8 = using 8 threads for the compilation - replace 8 with number of threads you want to use
 ./zcutil/build-mac.sh -j8
@@ -71,15 +70,13 @@ sudo update-alternatives --config x86_64-w64-mingw32-g++
 # (configure to use POSIX variant)
 
 git clone https://github.com/actioncoininc/ActionOcean --branch static --single-branch
-cd komodo
+cd ActionOcean
 ./zcutil/fetch-params.sh
 # -j8 = using 8 threads for the compilation - replace 8 with number of threads you want to use
 ./zcutil/build-win.sh -j8
 #This can take some time.
 ```
-**komodo is experimental and a work-in-progress.** Use at your own risk.
-
-
+**ActionOcean and komodo are experimental and works-in-progress.** Use at your own risk.
 
 ## Developers of Qt wallet ##
 
