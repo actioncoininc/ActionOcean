@@ -149,7 +149,7 @@ void setupAmountWidget(QLineEdit *widget, QWidget *parent)
 bool parseKomodoURI(const QUrl &uri, SendCoinsRecipient *out)
 {
     // return if URI is not valid or is no komodo: URI
-    if(!uri.isValid() || uri.scheme() != QString("komodo"))
+    if(!uri.isValid() || uri.scheme() != QString("action"))
         return false;
 
     SendCoinsRecipient rv;
@@ -213,9 +213,9 @@ bool parseKomodoURI(QString uri, SendCoinsRecipient *out)
     //
     //    Cannot handle this later, because komodo:// will cause Qt to see the part after // as host,
     //    which will lower-case it (and thus invalidate the address).
-    if(uri.startsWith("komodo://", Qt::CaseInsensitive))
+    if(uri.startsWith("action://", Qt::CaseInsensitive))
     {
-        uri.replace(0, 10, "komodo:");
+        uri.replace(0, 10, "action:");
     }
     QUrl uriInstance(uri);
     return parseKomodoURI(uriInstance, out);
@@ -223,7 +223,7 @@ bool parseKomodoURI(QString uri, SendCoinsRecipient *out)
 
 QString formatKomodoURI(const SendCoinsRecipient &info)
 {
-    QString ret = QString("komodo:%1").arg(info.address);
+    QString ret = QString("%1").arg(info.address);
     int paramCount = 0;
 
     if (info.amount)
