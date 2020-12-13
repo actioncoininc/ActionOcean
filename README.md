@@ -69,6 +69,9 @@ cd komodo
 # -j8 = using 8 threads for the compilation - replace 8 with number of threads you want to use
 ./zcutil/build-mac.sh -j8
 # This can take some time.
+cd src
+#last step below will link app statically, before running open the script and check library paths started with -L(correct darwin version if necessary)
+./macos_link_helper.sh  
 ```
 
 #### Windows
