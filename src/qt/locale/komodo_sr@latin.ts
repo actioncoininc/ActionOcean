@@ -158,16 +158,16 @@
         <translation>Otvori &amp;URI...</translation>
     </message>
     <message>
-        <source>Send coins to a Komodo address</source>
-        <translation>Pošalji novčiće na Komodo adresu</translation>
+        <source>Send coins to a Action address</source>
+        <translation>Pošalji novčiće na Action adresu</translation>
     </message>
     <message>
         <source>&amp;Verify message...</source>
         <translation>&amp;Proveri poruku...</translation>
     </message>
     <message>
-        <source>Komodo</source>
-        <translation>Komodo</translation>
+        <source>Action</source>
+        <translation>Action</translation>
     </message>
     <message>
         <source>Wallet</source>

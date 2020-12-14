@@ -90,8 +90,8 @@
         <translation>&amp;செய்தியை சரிசெய்...</translation>
     </message>
     <message>
-        <source>Komodo</source>
-        <translation>Komodo</translation>
+        <source>Action</source>
+        <translation>Action</translation>
     </message>
     <message>
         <source>Wallet</source>

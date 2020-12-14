@@ -231,7 +231,7 @@
     </message>
     <message>
         <source>Komodo</source>
-        <translation>Komodo Core</translation>
+        <translation>Komodo</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -442,8 +442,8 @@
         <translation>Пробросить порт через &amp;UPnP</translation>
     </message>
     <message>
-        <source>Connect to the Komodo network through a SOCKS5 proxy.</source>
-        <translation>Подключится к сети Komodo через SOCKS5 прокси.</translation>
+        <source>Connect to the Action network through a SOCKS5 proxy.</source>
+        <translation>Подключится к сети Action через SOCKS5 прокси.</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
@@ -522,8 +522,8 @@
 <context>
     <name>QObject</name>
     <message>
-        <source>Enter a Komodo address (e.g. %1)</source>
-        <translation>Введите Komodo-адрес (напр. %1)</translation>
+        <source>Enter a Action address (e.g. %1)</source>
+        <translation>Введите Action-адрес (напр. %1)</translation>
     </message>
     <message numerus="yes">
         <source>%n hour(s)</source>

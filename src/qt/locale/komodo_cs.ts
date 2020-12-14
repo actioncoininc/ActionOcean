@@ -62,11 +62,11 @@
         <translation>Přijímací adresy</translation>
     </message>
     <message>
-        <source>These are your Komodo addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <source>These are your Action addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
         <translation>Tohle jsou tvé komodoové adresy pro posílání plateb. Před odesláním mincí si vždy zkontroluj částku a cílovou adresu.</translation>
     </message>
     <message>
-        <source>These are your Komodo addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <source>These are your Action addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
         <translation>Tohle jsou tvé komodoové adresy pro příjem plateb. Nezapomeň si pro každou transakci vždy vygenerovat novou adresu.</translation>
     </message>
     <message>
@@ -338,7 +338,7 @@
         <translation>Vytvářím nový index bloků na disku...</translation>
     </message>
     <message>
-        <source>Send coins to a Komodo address</source>
+        <source>Send coins to a Action address</source>
         <translation>Pošli mince na komodoovou adresu</translation>
     </message>
     <message>
@@ -362,8 +362,8 @@
         <translation>&amp;Ověř zprávu...</translation>
     </message>
     <message>
-        <source>Komodo</source>
-        <translation>Komodo</translation>
+        <source>Action</source>
+        <translation>Action</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -390,11 +390,11 @@
         <translation>Zašifruj soukromé klíče ve své peněžence</translation>
     </message>
     <message>
-        <source>Sign messages with your Komodo addresses to prove you own them</source>
+        <source>Sign messages with your Action addresses to prove you own them</source>
         <translation>Podepiš zprávy svými komodoovými adresami, čímž prokážeš, že jsi jejich vlastníkem</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Komodo addresses</source>
+        <source>Verify messages to ensure they were signed with specified Action addresses</source>
         <translation>Ověř zprávy, aby ses ujistil, že byly podepsány danými komodoovými adresami</translation>
     </message>
     <message>
@@ -414,8 +414,8 @@
         <translation>Panel s listy</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and komodo: URIs)</source>
-        <translation>Požaduj platby (generuje QR kódy a komodo: URI)</translation>
+        <source>Request payments (generates QR codes and Action: URIs)</source>
+        <translation>Požaduj platby (generuje QR kódy a Action: URI)</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -426,15 +426,15 @@
         <translation>Ukaž seznam použitých přijímacích adres a jejich označení</translation>
     </message>
     <message>
-        <source>Open a komodo: URI or payment request</source>
-        <translation>Načti komodo: URI nebo platební požadavek</translation>
+        <source>Open a Action: URI or payment request</source>
+        <translation>Načti Action: URI nebo platební požadavek</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
         <translation>Ar&amp;gumenty příkazové řádky</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Komodo network</source>
+        <source>%n active connection(s) to Action network</source>
         <translation><numerusform>%n aktivní spojení do komodoové sítě</numerusform><numerusform>%n aktivní spojení do komodoové sítě</numerusform><numerusform>%n aktivních spojení do komodoové sítě</numerusform></translation>
     </message>
     <message>
@@ -478,7 +478,7 @@
         <translation>Aktuální</translation>
     </message>
     <message>
-        <source>Show the %1 help message to get a list with possible Komodo command-line options</source>
+        <source>Show the %1 help message to get a list with possible Action command-line options</source>
         <translation>Seznam argumentů Komodou pro příkazovou řádku získáš v nápovědě %1</translation>
     </message>
     <message>
@@ -548,8 +548,8 @@
         <translation>Peněženka je &lt;b&gt;zašifrovaná&lt;/b&gt; a momentálně &lt;b&gt;zamčená&lt;/b&gt;</translation>
     </message>
     <message>
-        <source>A fatal error occurred. Komodo can no longer continue safely and will quit.</source>
-        <translation>Stala se fatální chyba. Komodo nemůže bezpečně pokračovat v činnosti, a proto skončí.</translation>
+        <source>A fatal error occurred. Action can no longer continue safely and will quit.</source>
+        <translation>Stala se fatální chyba. Action nemůže bezpečně pokračovat v činnosti, a proto skončí.</translation>
     </message>
 </context>
 <context>
@@ -742,7 +742,7 @@
         <translation>Uprav odesílací adresu</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Komodo address.</source>
+        <source>The entered address "%1" is not a valid Action address.</source>
         <translation>Zadaná adresa „%1“ není platná komodoová adresa.</translation>
     </message>
     <message>
@@ -851,7 +851,7 @@
         <translation>Tohle je poprvé, co spouštíš %1, takže si můžeš zvolit, kam bude ukládat svá data.</translation>
     </message>
     <message>
-        <source>%1 will download and store a copy of the Komodo block chain. At least %2GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <source>%1 will download and store a copy of the Action block chain. At least %2GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
         <translation>%1 bude stahovat kopii řetězce bloků. Proto bude potřeba do tohoto adresáře uložit nejméně %2 GB dat – toto číslo bude navíc v průběhu času růst. Tvá peněženka bude rovněž uložena v tomto adresáři.</translation>
     </message>
     <message>
@@ -886,7 +886,7 @@
         <translation>Formulář</translation>
     </message>
     <message>
-        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the komodo network, as detailed below.</source>
+        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the Action network, as detailed below.</source>
         <translation>Nedávné transakce ještě nemusí být vidět, takže stav tvého účtu nemusí být platný. Jakmile se však tvá peněženka dosynchronizuje s komodoovou sítí (viz informace níže), tak už bude stav správně.</translation>
     </message>
     <message>
@@ -1048,7 +1048,7 @@
         <translation>&amp;Utrácet i ještě nepotvrzené drobné</translation>
     </message>
     <message>
-        <source>Automatically open the Komodo client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <source>Automatically open the Action client port on the router. This only works when your router supports UPnP and it is enabled.</source>
         <translation>Automaticky otevře potřebný port na routeru. Tohle funguje jen za předpokladu, že tvůj router podporuje UPnP a že je UPnP povolené.</translation>
     </message>
     <message>
@@ -1056,7 +1056,7 @@
         <translation>Namapovat port přes &amp;UPnP</translation>
     </message>
     <message>
-        <source>Connect to the Komodo network through a SOCKS5 proxy.</source>
+        <source>Connect to the Action network through a SOCKS5 proxy.</source>
         <translation>Připojí se do komodoové sítě přes SOCKS5 proxy.</translation>
     </message>
     <message>
@@ -1096,7 +1096,7 @@
         <translation>Tor</translation>
     </message>
     <message>
-        <source>Connect to the Komodo network through a separate SOCKS5 proxy for Tor hidden services.</source>
+        <source>Connect to the Action network through a separate SOCKS5 proxy for Tor hidden services.</source>
         <translation>Připojí se do komodoové sítě přes SOCKS5 proxy vyhrazenou pro skryté služby v Tor síti.</translation>
     </message>
     <message>
@@ -1195,7 +1195,7 @@
         <translation>Formulář</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Komodo network after a connection is established, but this process has not completed yet.</source>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Action network after a connection is established, but this process has not completed yet.</source>
         <translation>Zobrazené informace nemusí být aktuální. Tvá peněženka se automaticky sesynchronizuje s komodoovou sítí, jakmile se s ní spojí. Zatím ale ještě není synchronizace dokončena.</translation>
     </message>
     <message>
@@ -1270,8 +1270,8 @@
         <translation>Chyba platebního požadavku</translation>
     </message>
     <message>
-        <source>Cannot start komodo: click-to-pay handler</source>
-        <translation>Nemůžu spustit komodo: obsluha click-to-pay</translation>
+        <source>Cannot start Action: click-to-pay handler</source>
+        <translation>Nemůžu spustit Action: obsluha click-to-pay</translation>
     </message>
     <message>
         <source>URI handling</source>
@@ -1286,7 +1286,7 @@
         <translation>Neplatná platební adresa %1</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid Komodo address or malformed URI parameters.</source>
+        <source>URI cannot be parsed! This can be caused by an invalid Action address or malformed URI parameters.</source>
         <translation>Nepodařilo se analyzovat URI! Důvodem může být neplatná komodoová adresa nebo poškozené parametry URI.</translation>
     </message>
     <message>
@@ -1380,7 +1380,7 @@
         <translation>Částka</translation>
     </message>
     <message>
-        <source>Enter a Komodo address (e.g. %1)</source>
+        <source>Enter a Action address (e.g. %1)</source>
         <translation>Zadej komodoovou adresu (např. %1)</translation>
     </message>
     <message>
@@ -1804,7 +1804,7 @@
         <translation>&amp;Recyklovat již existující adresy (nedoporučeno)</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Komodo network.</source>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Action network.</source>
         <translation>Volitelná zpráva, která se připojí k platebnímu požadavku a která se zobrazí, když se požadavek otevře. Poznámka: tahle zpráva se neposílá s platbou po komodoové síti.</translation>
     </message>
     <message>
@@ -2037,7 +2037,7 @@
         <translation>přinejmenším</translation>
     </message>
     <message>
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for komodo transactions than the network can process.</source>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for Action transactions than the network can process.</source>
         <translation>Platit jen minimální poplatek je v pořádku, pokud je zrovna méně transakcí než místa v blocích. Ale počítej s tím, že to také může skončit transakcí, která nikdy nebude potvrzena, pokud je větší poptávka po komodoových transakcích, než síť zvládne zpracovat.</translation>
     </message>
     <message>
@@ -2201,7 +2201,7 @@
         <translation><numerusform>Potvrzování by podle odhadu mělo začít během %n bloku.</numerusform><numerusform>Potvrzování by podle odhadu mělo začít během %n bloků.</numerusform><numerusform>Potvrzování by podle odhadu mělo začít během %n bloků.</numerusform></translation>
     </message>
     <message>
-        <source>Warning: Invalid Komodo address</source>
+        <source>Warning: Invalid Action address</source>
         <translation>Upozornění: Neplatná komodoová adresa</translation>
     </message>
     <message>
@@ -2244,7 +2244,7 @@
         <translation>Tohle je normální platba.</translation>
     </message>
     <message>
-        <source>The Komodo address to send the payment to</source>
+        <source>The Action address to send the payment to</source>
         <translation>Komodoová adresa příjemce</translation>
     </message>
     <message>
@@ -2288,8 +2288,8 @@
         <translation>Zadej označení této adresy; obojí se ti pak uloží do adresáře</translation>
     </message>
     <message>
-        <source>A message that was attached to the komodo: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Komodo network.</source>
-        <translation>Zpráva, která byla připojena k komodo: URI a která se ti pro přehled uloží k transakci. Poznámka: Tahle zpráva se neposílá s platbou po komodoové síti.</translation>
+        <source>A message that was attached to the Action: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Action network.</source>
+        <translation>Zpráva, která byla připojena k Action: URI a která se ti pro přehled uloží k transakci. Poznámka: Tahle zpráva se neposílá s platbou po komodoové síti.</translation>
     </message>
     <message>
         <source>Pay To:</source>
@@ -2337,7 +2337,7 @@
         <translation>Podepsáním zprávy/smlouvy svými adresami můžeš prokázat, že jsi na ně schopen přijmout komodoy. Buď opatrný a nepodepisuj nic vágního nebo náhodného; například při phishingových útocích můžeš být lákán, abys něco takového podepsal. Podepisuj pouze naprosto úplná a detailní prohlášení, se kterými souhlasíš.</translation>
     </message>
     <message>
-        <source>The Komodo address to sign the message with</source>
+        <source>The Action address to sign the message with</source>
         <translation>Komodoová adresa, kterou se zpráva podepíše</translation>
     </message>
     <message>
@@ -2369,7 +2369,7 @@
         <translation>Zkopíruj tento podpis do schránky</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Komodo address</source>
+        <source>Sign the message to prove you own this Action address</source>
         <translation>Podepiš zprávu, čímž prokážeš, že jsi vlastníkem této komodoové adresy</translation>
     </message>
     <message>
@@ -2393,11 +2393,11 @@
         <translation>K ověření podpisu zprávy zadej adresu příjemce, zprávu (ověř si, že správně kopíruješ zalomení řádků, mezery, tabulátory apod.) a podpis. Dávej pozor na to, abys nezkopíroval do podpisu víc, než co je v samotné podepsané zprávě, abys nebyl napálen man-in-the-middle útokem. Poznamenejme však, že takto lze pouze prokázat, že podepisující je schopný na dané adrese přijmout platbu, ale není možnéprokázat, že odeslal jakoukoli transakci!</translation>
     </message>
     <message>
-        <source>The Komodo address the message was signed with</source>
+        <source>The Action address the message was signed with</source>
         <translation>Komodoová adresa, kterou je zpráva podepsána</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Komodo address</source>
+        <source>Verify the message to ensure it was signed with the specified Action address</source>
         <translation>Ověř zprávu, aby ses ujistil, že byla podepsána danou komodoovou adresou</translation>
     </message>
     <message>

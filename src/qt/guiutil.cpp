@@ -130,7 +130,7 @@ void setupAddressWidget(QValidatedLineEdit *widget, QWidget *parent, bool allowZ
 #if QT_VERSION >= 0x040700
     // We don't want translators to use own addresses in translations
     // and this is the only place, where this address is supplied.
-    widget->setPlaceholderText(QObject::tr("Enter a Komodo address (e.g. %1)").arg(
+    widget->setPlaceholderText(QObject::tr("Enter Action Coin address (e.g. %1)").arg(
         QString::fromStdString(DummyAddress(Params()))));
 #endif
     widget->setValidator(new KomodoAddressEntryValidator(parent, allowZAddresses));
@@ -430,7 +430,7 @@ bool openKomodoConf()
     
     configFile.close();
     
-    /* Open komodo.conf with the associated application */
+    /* Open action.conf with the associated application */
     return QDesktopServices::openUrl(QUrl::fromLocalFile(boostPathToQString(pathConfig)));
 }
 
@@ -619,15 +619,15 @@ fs::path static StartupShortcutPath()
 //    std::string chain = ChainNameFromCommandLine();
     CBaseChainParams::Network chain = NetworkIdFromCommandLine();
     if (chain == CBaseChainParams::MAIN)
-        return GetSpecialFolderPath(CSIDL_STARTUP) / "Komodo.lnk";
+        return GetSpecialFolderPath(CSIDL_STARTUP) / "Action.lnk";
     if (chain == CBaseChainParams::TESTNET) // Remove this special case when CBaseChainParams::TESTNET = "testnet4"
-        return GetSpecialFolderPath(CSIDL_STARTUP) / "Komodo (testnet).lnk";
-    return GetSpecialFolderPath(CSIDL_STARTUP) / strprintf("Komodo (%s).lnk", chain);
+        return GetSpecialFolderPath(CSIDL_STARTUP) / "Action (testnet).lnk";
+    return GetSpecialFolderPath(CSIDL_STARTUP) / strprintf("Action (%s).lnk", chain);
 }
 
 bool GetStartOnSystemStartup()
 {
-    // check for Komodo*.lnk
+    // check for Action*.lnk
     return fs::exists(StartupShortcutPath());
 }
 
@@ -764,9 +764,9 @@ bool SetStartOnSystemStartup(bool fAutoStart)
         optionFile << "[Desktop Entry]\n";
         optionFile << "Type=Application\n";
         if (chain == CBaseChainParams::MAIN)
-            optionFile << "Name=Komodo\n";
+            optionFile << "Name=Action\n";
         else
-            optionFile << strprintf("Name=Komodo (%s)\n", chain);
+            optionFile << strprintf("Name=Action (%s)\n", chain);
         //optionFile << "Exec=" << pszExePath << strprintf(" -min -testnet=%d -regtest=%d\n", gArgs.GetBoolArg("-testnet", false), gArgs.GetBoolArg("-regtest", false));
         optionFile << "Exec=" << pszExePath << strprintf(" -min -testnet=%d -regtest=%d\n", GetBoolArg("-testnet", false), GetBoolArg("-regtest", false));
         optionFile << "Terminal=false\n";

@@ -130,8 +130,8 @@
         <translation>Промени &amp;лозинку...</translation>
     </message>
     <message>
-        <source>Send coins to a Komodo address</source>
-        <translation>Пошаљите новац на komodo адресу</translation>
+        <source>Send coins to a Action address</source>
+        <translation>Пошаљите новац на Action адресу</translation>
     </message>
     <message>
         <source>Change the passphrase used for wallet encryption</source>

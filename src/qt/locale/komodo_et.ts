@@ -62,12 +62,12 @@
         <translation>Vastuvõtvad aadressid</translation>
     </message>
     <message>
-        <source>These are your Komodo addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Need on sinu Komodo aadressid maksete saatmiseks. Ennem müntide saatmist kontrolli alati summat ja makse saaja aadressi.</translation>
+        <source>These are your Action addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Need on sinu Action aadressid maksete saatmiseks. Ennem müntide saatmist kontrolli alati summat ja makse saaja aadressi.</translation>
     </message>
     <message>
-        <source>These are your Komodo addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Need on sinu Komodo aadressid sisenevate maksete vastu võtmiseks. Soovitav on iga tehingu tarbeks kasutada uut aadressi.</translation>
+        <source>These are your Action addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Need on sinu Action aadressid sisenevate maksete vastu võtmiseks. Soovitav on iga tehingu tarbeks kasutada uut aadressi.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -290,7 +290,7 @@
         <translation>Kettal olevate blokkide re-indekseerimine...</translation>
     </message>
     <message>
-        <source>Send coins to a Komodo address</source>
+        <source>Send coins to a Action address</source>
         <translation>Saada münte Komodoi aadressile</translation>
     </message>
     <message>
@@ -314,8 +314,8 @@
         <translation>&amp;Kontrolli sõnumit...</translation>
     </message>
     <message>
-        <source>Komodo</source>
-        <translation>Komodo</translation>
+        <source>Action</source>
+        <translation>Action</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -342,11 +342,11 @@
         <translation>Krüpteeri oma rahakoti privaatvõtmed</translation>
     </message>
     <message>
-        <source>Sign messages with your Komodo addresses to prove you own them</source>
+        <source>Sign messages with your Action addresses to prove you own them</source>
         <translation>Omandi tõestamiseks allkirjasta sõnumid oma Komodoi aadressiga</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Komodo addresses</source>
+        <source>Verify messages to ensure they were signed with specified Action addresses</source>
         <translation>Kinnita sõnumid kindlustamaks et need allkirjastati määratud Komodoi aadressiga</translation>
     </message>
     <message>
@@ -366,11 +366,11 @@
         <translation>Vahelehe tööriistariba</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and komodo: URIs)</source>
+        <source>Request payments (generates QR codes and Action: URIs)</source>
         <translation>Loo maksepäring (genereerib QR koodid ja komodoi: URId)</translation>
     </message>
     <message>
-        <source>Open a komodo: URI or payment request</source>
+        <source>Open a Action: URI or payment request</source>
         <translation>Ava komodoi: URI või maksepäring</translation>
     </message>
     <message>
@@ -378,7 +378,7 @@
         <translation>Käsurea valikud</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Komodo network</source>
+        <source>%n active connection(s) to Action network</source>
         <translation><numerusform>%n aktiivne ühendus Komodoi võrku</numerusform><numerusform>%n aktiivset ühendust Komodoi võrku</numerusform></translation>
     </message>
     <message>
@@ -626,8 +626,8 @@
         <translation>Muuda saatvat aadressi</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Komodo address.</source>
-        <translation>Sisestatud aadress "%1" ei ole korrektne Komodo aadress.</translation>
+        <source>The entered address "%1" is not a valid Action address.</source>
+        <translation>Sisestatud aadress "%1" ei ole korrektne Action aadress.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -756,7 +756,7 @@
         <translation>Ekspert</translation>
     </message>
     <message>
-        <source>Automatically open the Komodo client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <source>Automatically open the Action client port on the router. This only works when your router supports UPnP and it is enabled.</source>
         <translation>Komodoi kliendi pordi automaatne avamine ruuteris. Toimib, kui sinu ruuter aktsepteerib UPnP ühendust.</translation>
     </message>
     <message>
@@ -855,7 +855,7 @@
         <translation>Vorm</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Komodo network after a connection is established, but this process has not completed yet.</source>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Action network after a connection is established, but this process has not completed yet.</source>
         <translation>Kuvatav info ei pruugi olla ajakohane. Ühenduse loomisel süngitakse sinu rahakott automaatselt Bitconi võrgustikuga, kuid see toiming on hetkel lõpetamata.</translation>
     </message>
     <message>
@@ -1337,8 +1337,8 @@
         <translation>Maksepäring aegunud.</translation>
     </message>
     <message>
-        <source>Warning: Invalid Komodo address</source>
-        <translation>Hoiatus: Ebakorrektne Komodo aadress</translation>
+        <source>Warning: Invalid Action address</source>
+        <translation>Hoiatus: Ebakorrektne Action aadress</translation>
     </message>
     <message>
         <source>(no label)</source>
@@ -1417,8 +1417,8 @@
         <translation>&amp;Allkirjastamise teade</translation>
     </message>
     <message>
-        <source>The Komodo address to sign the message with</source>
-        <translation>Komodo aadress millega sõnum allkirjastada</translation>
+        <source>The Action address to sign the message with</source>
+        <translation>Action aadress millega sõnum allkirjastada</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -1449,7 +1449,7 @@
         <translation>Kopeeri praegune signatuur vahemällu</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Komodo address</source>
+        <source>Sign the message to prove you own this Action address</source>
         <translation>Allkirjasta sõnum Komodoi aadressi sulle kuulumise tõestamiseks</translation>
     </message>
     <message>
@@ -1469,11 +1469,11 @@
         <translation>&amp;Kinnita Sõnum</translation>
     </message>
     <message>
-        <source>The Komodo address the message was signed with</source>
-        <translation>Komodo aadress millega sõnum on allkirjastatud</translation>
+        <source>The Action address the message was signed with</source>
+        <translation>Action aadress millega sõnum on allkirjastatud</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Komodo address</source>
+        <source>Verify the message to ensure it was signed with the specified Action address</source>
         <translation>Kinnita sõnum tõestamaks selle allkirjastatust määratud Komodoi aadressiga.</translation>
     </message>
     <message>

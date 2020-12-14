@@ -114,8 +114,8 @@
         <translation>Recreans indicem frustorum in disco...</translation>
     </message>
     <message>
-        <source>Send coins to a Komodo address</source>
-        <translation>Mitte nummos ad inscriptionem Komodo</translation>
+        <source>Send coins to a Action address</source>
+        <translation>Mitte nummos ad inscriptionem Action</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -138,8 +138,8 @@
         <translation>&amp;Verifica nuntium...</translation>
     </message>
     <message>
-        <source>Komodo</source>
-        <translation>Komodo</translation>
+        <source>Action</source>
+        <translation>Action</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -166,12 +166,12 @@
         <translation>Cifra claves privatas quae cassidili tui sunt</translation>
     </message>
     <message>
-        <source>Sign messages with your Komodo addresses to prove you own them</source>
-        <translation>Signa nuntios cum tuis inscriptionibus Komodo ut demonstres te eas possidere</translation>
+        <source>Sign messages with your Action addresses to prove you own them</source>
+        <translation>Signa nuntios cum tuis inscriptionibus Action ut demonstres te eas possidere</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Komodo addresses</source>
-        <translation>Verifica nuntios ut certus sis eos signatos esse cum specificatis inscriptionibus Komodo</translation>
+        <source>Verify messages to ensure they were signed with specified Action addresses</source>
+        <translation>Verifica nuntios ut certus sis eos signatos esse cum specificatis inscriptionibus Action</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -346,8 +346,8 @@
         <translation>Cassidile</translation>
     </message>
     <message>
-        <source>Automatically open the Komodo client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Aperi per se portam clientis Komodo in itineratore.  Hoc tantum effectivum est si itineratrum tuum supportat UPnP et id activum est.</translation>
+        <source>Automatically open the Action client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Aperi per se portam clientis Action in itineratore.  Hoc tantum effectivum est si itineratrum tuum supportat UPnP et id activum est.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -425,8 +425,8 @@
         <translation>Schema</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Komodo network after a connection is established, but this process has not completed yet.</source>
-        <translation>Monstrata informatio fortasse non recentissima est.  Tuum cassidile per se synchronizat cum rete Komodo postquam conexio constabilita est, sed hoc actio nondum perfecta est.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Action network after a connection is established, but this process has not completed yet.</source>
+        <translation>Monstrata informatio fortasse non recentissima est.  Tuum cassidile per se synchronizat cum rete Action postquam conexio constabilita est, sed hoc actio nondum perfecta est.</translation>
     </message>
     <message>
         <source>Immature:</source>
@@ -671,8 +671,8 @@
         <translation>Copia signationem in latibulum systematis</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Komodo address</source>
-        <translation>Signa nuntium ut demonstres hanc inscriptionem Komodo a te possessa esse</translation>
+        <source>Sign the message to prove you own this Action address</source>
+        <translation>Signa nuntium ut demonstres hanc inscriptionem Action a te possessa esse</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -691,8 +691,8 @@
         <translation>&amp;Verifica Nuntium</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Komodo address</source>
-        <translation>Verifica nuntium ut cures signatum esse cum specifica inscriptione Komodo</translation>
+        <source>Verify the message to ensure it was signed with the specified Action address</source>
+        <translation>Verifica nuntium ut cures signatum esse cum specifica inscriptione Action</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>

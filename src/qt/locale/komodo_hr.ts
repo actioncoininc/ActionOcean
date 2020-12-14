@@ -54,8 +54,8 @@
         <translation>&amp;Odaberi</translation>
     </message>
     <message>
-        <source>These are your Komodo addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Ovo su vaše Komodo adrese za slanje novca. Uvijek provjerite iznos i adresu primatelja prije slanja novca.</translation>
+        <source>These are your Action addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Ovo su vaše Action adrese za slanje novca. Uvijek provjerite iznos i adresu primatelja prije slanja novca.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -174,8 +174,8 @@
         <translation>Re-indeksiranje blokova na disku...</translation>
     </message>
     <message>
-        <source>Send coins to a Komodo address</source>
-        <translation>Slanje novca na komodo adresu</translation>
+        <source>Send coins to a Action address</source>
+        <translation>Slanje novca na Action adresu</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -198,8 +198,8 @@
         <translation>&amp;Potvrdite poruku...</translation>
     </message>
     <message>
-        <source>Komodo</source>
-        <translation>Komodo</translation>
+        <source>Action</source>
+        <translation>Action</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -226,12 +226,12 @@
         <translation>Šifriranje privatnih ključeva koji u novčaniku</translation>
     </message>
     <message>
-        <source>Sign messages with your Komodo addresses to prove you own them</source>
-        <translation>Poruku potpišemo s komodo adresom, kako bi dokazali vlasništvo nad tom adresom</translation>
+        <source>Sign messages with your Action addresses to prove you own them</source>
+        <translation>Poruku potpišemo s Action adresom, kako bi dokazali vlasništvo nad tom adresom</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Komodo addresses</source>
-        <translation>Provjeravanje poruke, kao dokaz, da je potpisana navedenom komodo adresom</translation>
+        <source>Verify messages to ensure they were signed with specified Action addresses</source>
+        <translation>Provjeravanje poruke, kao dokaz, da je potpisana navedenom Action adresom</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -250,8 +250,8 @@
         <translation>Traka kartica</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and komodo: URIs)</source>
-        <translation>Zatraži uplatu (stvara QR kod i komodo: URI adresu)</translation>
+        <source>Request payments (generates QR codes and Action: URIs)</source>
+        <translation>Zatraži uplatu (stvara QR kod i Action: URI adresu)</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -262,16 +262,16 @@
         <translation>Prikaži popis korištenih adresa i oznaka za primanje novca</translation>
     </message>
     <message>
-        <source>Open a komodo: URI or payment request</source>
-        <translation>Otvori komodo: URI adresu ili zahtjev za uplatu</translation>
+        <source>Open a Action: URI or payment request</source>
+        <translation>Otvori Action: URI adresu ili zahtjev za uplatu</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
         <translation>Opcije &amp;naredbene linije</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Komodo network</source>
-        <translation><numerusform>%n aktivna veza na Komodo mrežu</numerusform><numerusform>%n aktivnih veza na Komodo mrežu</numerusform><numerusform>%n aktivnih veza na Komodo mrežu</numerusform></translation>
+        <source>%n active connection(s) to Action network</source>
+        <translation><numerusform>%n aktivna veza na Action mrežu</numerusform><numerusform>%n aktivnih veza na Action mrežu</numerusform><numerusform>%n aktivnih veza na Action mrežu</numerusform></translation>
     </message>
     <message numerus="yes">
         <source>Processed %n block(s) of transaction history.</source>
@@ -423,11 +423,11 @@
     </message>
     <message>
         <source>The label associated with this address list entry</source>
-        <translation>Oznaka komodo adrese</translation>
+        <translation>Oznaka Action adrese</translation>
     </message>
     <message>
         <source>The address associated with this address list entry. This can only be modified for sending addresses.</source>
-        <translation>Komodo adresa. Izmjene adrese su moguće samo za adrese za slanje.</translation>
+        <translation>Action adresa. Izmjene adrese su moguće samo za adrese za slanje.</translation>
     </message>
     <message>
         <source>&amp;Address</source>
@@ -568,8 +568,8 @@
         <translation>&amp;Trošenje nepotvrđenih vraćenih iznosa</translation>
     </message>
     <message>
-        <source>Automatically open the Komodo client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Automatski otvori port Komodo klijenta na ruteru. To radi samo ako ruter podržava UPnP i ako je omogućen.</translation>
+        <source>Automatically open the Action client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Automatski otvori port Action klijenta na ruteru. To radi samo ako ruter podržava UPnP i ako je omogućen.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -643,8 +643,8 @@
         <translation>Oblik</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Komodo network after a connection is established, but this process has not completed yet.</source>
-        <translation>Prikazani podatci mogu biti zastarjeli. Vaš novčanik se automatski sinkronizira s Komodo mrežom kada je veza uspostavljena, ali taj proces još nije završen.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Action network after a connection is established, but this process has not completed yet.</source>
+        <translation>Prikazani podatci mogu biti zastarjeli. Vaš novčanik se automatski sinkronizira s Action mrežom kada je veza uspostavljena, ali taj proces još nije završen.</translation>
     </message>
     <message>
         <source>Total:</source>

@@ -11,7 +11,7 @@ define(_COPYRIGHT_YEAR, 2020)
 define(_COPYRIGHT_HOLDERS, "The %s developers")
 define(_COPYRIGHT_HOLDERS_SUBSTITUTION, "Ocean and Decker")
 
-AC_INIT([KomodoOcean],[_CLIENT_VERSION_MAJOR._CLIENT_VERSION_MINOR._CLIENT_VERSION_SUFFIX(_ZC_BUILD_VAL)],[https://github.com/zcash/zcash/issues],[zcash])
+AC_INIT([ActionOcean],[_CLIENT_VERSION_MAJOR._CLIENT_VERSION_MINOR._CLIENT_VERSION_SUFFIX(_ZC_BUILD_VAL)],[https://github.com/zcash/zcash/issues],[zcash])
 AC_CONFIG_SRCDIR([src/main.cpp])
 AC_CONFIG_HEADERS([src/config/bitcoin-config.h])
 AC_CONFIG_AUX_DIR([build-aux])

@@ -88,7 +88,7 @@ PlatformStyle::PlatformStyle(const QString &_name, bool _imagesOnButtons, bool _
         const int colorTextLightness = colorText.lightness();
         // QColor colorbase = QColor(0, 94, 94); // Komodo Color
         // QColor colorbase = QColor(38, 69, 107);  // Komodo Dark Blue
-        QColor colorbase = QColor(43, 102, 128);    // Komodo Light Blue
+        QColor colorbase = QColor(255, 0, 0);    // Action Red
 
         /*if (abs(colorHighlightBg.lightness() - colorTextLightness) < abs(colorHighlightFg.lightness() - colorTextLightness))
             colorbase = colorHighlightBg;

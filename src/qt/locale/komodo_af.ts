@@ -62,11 +62,11 @@
         <translation>Ontvanger adresse</translation>
     </message>
     <message>
-        <source>These are your Komodo addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Hierdie is die adresse vanwaar u Komodo betalings stuur. U moet altyd die bedrag en die adres van die ontvanger nagaan voordat u enige munte stuur.</translation>
+        <source>These are your Action addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Hierdie is die adresse vanwaar u Action betalings stuur. U moet altyd die bedrag en die adres van die ontvanger nagaan voordat u enige munte stuur.</translation>
     </message>
     <message>
-        <source>These are your Komodo addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <source>These are your Action addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
         <translation>Hierdie is die adresse waar u Komodos sal ontvang. Ons beveel aan dat u 'n nuwe adres kies vir elke transaksie</translation>
     </message>
     <message>
@@ -330,8 +330,8 @@
         <translation>Besig met herindeksering van blokke op hardeskyf...</translation>
     </message>
     <message>
-        <source>Send coins to a Komodo address</source>
-        <translation>Stuur munte na 'n Komodo adres</translation>
+        <source>Send coins to a Action address</source>
+        <translation>Stuur munte na 'n Action adres</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -350,8 +350,8 @@
         <translation>Maak ontfouting en diagnostiese konsole oop</translation>
     </message>
     <message>
-        <source>Komodo</source>
-        <translation>Komodo</translation>
+        <source>Action</source>
+        <translation>Action</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -378,12 +378,12 @@
         <translation>Kodifiseer die private sleutes wat aan jou beursie gekoppel is.</translation>
     </message>
     <message>
-        <source>Sign messages with your Komodo addresses to prove you own them</source>
-        <translation>Onderteken boodskappe met u Komodo adresse om u eienaarskap te bewys</translation>
+        <source>Sign messages with your Action addresses to prove you own them</source>
+        <translation>Onderteken boodskappe met u Action adresse om u eienaarskap te bewys</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Komodo addresses</source>
-        <translation>Verifieër boodskappe om seker te maak dat dit met die gespesifiseerde Komodo adresse</translation>
+        <source>Verify messages to ensure they were signed with specified Action addresses</source>
+        <translation>Verifieër boodskappe om seker te maak dat dit met die gespesifiseerde Action adresse</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -398,8 +398,8 @@
         <translation>Orebalk</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and komodo: URIs)</source>
-        <translation>Versoek betalings (genereer QR-kodes en komodo: URI's)</translation>
+        <source>Request payments (generates QR codes and Action: URIs)</source>
+        <translation>Versoek betalings (genereer QR-kodes en Action: URI's)</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -410,8 +410,8 @@
         <translation>Vertoon die lys van gebruikte ontvangers-adresse en etikette</translation>
     </message>
     <message>
-        <source>Open a komodo: URI or payment request</source>
-        <translation>Skep 'n komodo: URI of betalingsversoek</translation>
+        <source>Open a Action: URI or payment request</source>
+        <translation>Skep 'n Action: URI of betalingsversoek</translation>
     </message>
     <message>
         <source>Indexing blocks on disk...</source>

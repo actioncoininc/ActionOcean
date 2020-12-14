@@ -114,8 +114,8 @@
         <translation>Reindexando bloques en el disco...</translation>
     </message>
     <message>
-        <source>Send coins to a Komodo address</source>
-        <translation>Enviar monedas a una dirección Komodo</translation>
+        <source>Send coins to a Action address</source>
+        <translation>Enviar monedas a una dirección Action</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -130,8 +130,8 @@
         <translation>Abre la consola de depuración y diágnostico</translation>
     </message>
     <message>
-        <source>Komodo</source>
-        <translation>Komodo</translation>
+        <source>Action</source>
+        <translation>Action</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -158,12 +158,12 @@
         <translation>Encriptar las llaves privadas que pertenecen a tu billetera</translation>
     </message>
     <message>
-        <source>Sign messages with your Komodo addresses to prove you own them</source>
-        <translation>Firma mensajes con tus direcciones Komodo para probar que eres dueño de ellas</translation>
+        <source>Sign messages with your Action addresses to prove you own them</source>
+        <translation>Firma mensajes con tus direcciones Action para probar que eres dueño de ellas</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Komodo addresses</source>
-        <translation>Verificar mensajes para asegurar que estaban firmados con direcciones Komodo especificas</translation>
+        <source>Verify messages to ensure they were signed with specified Action addresses</source>
+        <translation>Verificar mensajes para asegurar que estaban firmados con direcciones Action especificas</translation>
     </message>
     <message>
         <source>&amp;File</source>

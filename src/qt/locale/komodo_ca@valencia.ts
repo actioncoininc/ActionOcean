@@ -62,12 +62,12 @@
         <translation>S'estan rebent les adreces</translation>
     </message>
     <message>
-        <source>These are your Komodo addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Estes són les vostres adreces de Komodo per enviar els pagaments. Sempre reviseu l'import i l'adreça del destinatari abans de transferir monedes.</translation>
+        <source>These are your Action addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Estes són les vostres adreces de Action per enviar els pagaments. Sempre reviseu l'import i l'adreça del destinatari abans de transferir monedes.</translation>
     </message>
     <message>
-        <source>These are your Komodo addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Estes són les vostres adreces Komodo per rebre pagaments. Es recomana utilitzar una adreça nova de recepció per a cada transacció.</translation>
+        <source>These are your Action addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Estes són les vostres adreces Action per rebre pagaments. Es recomana utilitzar una adreça nova de recepció per a cada transacció.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -298,8 +298,8 @@
         <translation>S'estan reindexant els blocs al disc...</translation>
     </message>
     <message>
-        <source>Send coins to a Komodo address</source>
-        <translation>Envia monedes a una adreça Komodo</translation>
+        <source>Send coins to a Action address</source>
+        <translation>Envia monedes a una adreça Action</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -322,8 +322,8 @@
         <translation>&amp;Verifica el missatge...</translation>
     </message>
     <message>
-        <source>Komodo</source>
-        <translation>Komodo</translation>
+        <source>Action</source>
+        <translation>Action</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -350,12 +350,12 @@
         <translation>Encripta les claus privades pertanyents al moneder</translation>
     </message>
     <message>
-        <source>Sign messages with your Komodo addresses to prove you own them</source>
-        <translation>Signa el missatges amb la seua adreça de Komodo per provar que les poseeixes</translation>
+        <source>Sign messages with your Action addresses to prove you own them</source>
+        <translation>Signa el missatges amb la seua adreça de Action per provar que les poseeixes</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Komodo addresses</source>
-        <translation>Verifiqueu els missatges per assegurar-vos que han estat signats amb una adreça Komodo específica.</translation>
+        <source>Verify messages to ensure they were signed with specified Action addresses</source>
+        <translation>Verifiqueu els missatges per assegurar-vos que han estat signats amb una adreça Action específica.</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -374,8 +374,8 @@
         <translation>Barra d'eines de les pestanyes</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and komodo: URIs)</source>
-        <translation>Sol·licita pagaments (genera codis QR i komodo: URI)</translation>
+        <source>Request payments (generates QR codes and Action: URIs)</source>
+        <translation>Sol·licita pagaments (genera codis QR i Action: URI)</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -386,8 +386,8 @@
         <translation>Mostra la llista d'adreces de recepció i etiquetes utilitzades</translation>
     </message>
     <message>
-        <source>Open a komodo: URI or payment request</source>
-        <translation>Obri una komodo: sol·licitud d'URI o pagament</translation>
+        <source>Open a Action: URI or payment request</source>
+        <translation>Obri una Action: sol·licitud d'URI o pagament</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
@@ -658,8 +658,8 @@
         <translation>Edita les adreces d'enviament</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Komodo address.</source>
-        <translation>L'adreça introduïda «%1» no és una adreça de Komodo vàlida.</translation>
+        <source>The entered address "%1" is not a valid Action address.</source>
+        <translation>L'adreça introduïda «%1» no és una adreça de Action vàlida.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -884,16 +884,16 @@
         <translation>&amp;Gasta el canvi sense confirmar</translation>
     </message>
     <message>
-        <source>Automatically open the Komodo client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Obri el port del client de Komodo al router de forma automàtica. Això només funciona quan el router implementa UPnP i l'opció està activada.</translation>
+        <source>Automatically open the Action client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Obri el port del client de Action al router de forma automàtica. Això només funciona quan el router implementa UPnP i l'opció està activada.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
         <translation>Port obert amb &amp;UPnP</translation>
     </message>
     <message>
-        <source>Connect to the Komodo network through a SOCKS5 proxy.</source>
-        <translation>Connecta a la xarxa Komodo a través d'un proxy SOCKS5.</translation>
+        <source>Connect to the Action network through a SOCKS5 proxy.</source>
+        <translation>Connecta a la xarxa Action a través d'un proxy SOCKS5.</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
@@ -995,8 +995,8 @@
         <translation>Formulari</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Komodo network after a connection is established, but this process has not completed yet.</source>
-        <translation>La informació mostrada pot no estar al día. El teu moneder es sincronitza automàticament amb la xarxa Komodo un cop s'ha establit connexió, però este proces no s'ha completat encara.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Action network after a connection is established, but this process has not completed yet.</source>
+        <translation>La informació mostrada pot no estar al día. El teu moneder es sincronitza automàticament amb la xarxa Action un cop s'ha establit connexió, però este proces no s'ha completat encara.</translation>
     </message>
     <message>
         <source>Watch-only:</source>
@@ -1070,8 +1070,8 @@
         <translation>Error en la sol·licitud de pagament</translation>
     </message>
     <message>
-        <source>Cannot start komodo: click-to-pay handler</source>
-        <translation>No es pot iniciar komodo: gestor clica-per-pagar</translation>
+        <source>Cannot start Action: click-to-pay handler</source>
+        <translation>No es pot iniciar Action: gestor clica-per-pagar</translation>
     </message>
     <message>
         <source>URI handling</source>
@@ -1086,8 +1086,8 @@
         <translation>Adreça de pagament no vàlida %1</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid Komodo address or malformed URI parameters.</source>
-        <translation>L'URI no pot ser analitzat! Això pot ser a causa d'una adreça de Komodo no vàlida o per paràmetres URI amb mal format.</translation>
+        <source>URI cannot be parsed! This can be caused by an invalid Action address or malformed URI parameters.</source>
+        <translation>L'URI no pot ser analitzat! Això pot ser a causa d'una adreça de Action no vàlida o per paràmetres URI amb mal format.</translation>
     </message>
     <message>
         <source>Payment request file handling</source>
@@ -1172,8 +1172,8 @@
         <translation>Import</translation>
     </message>
     <message>
-        <source>Enter a Komodo address (e.g. %1)</source>
-        <translation>Introduïu una adreça de Komodo (p. ex. %1)</translation>
+        <source>Enter a Action address (e.g. %1)</source>
+        <translation>Introduïu una adreça de Action (p. ex. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -1452,8 +1452,8 @@
         <translation>R&amp;eutilitza una adreça de recepció anterior (no recomanat)</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Komodo network.</source>
-        <translation>Un missatge opcional que s'adjuntarà a la sol·licitud de pagament, que es mostrarà quan s'òbriga la sol·licitud. Nota: El missatge no s'enviarà amb el pagament per la xarxa Komodo.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Action network.</source>
+        <translation>Un missatge opcional que s'adjuntarà a la sol·licitud de pagament, que es mostrarà quan s'òbriga la sol·licitud. Nota: El missatge no s'enviarà amb el pagament per la xarxa Action.</translation>
     </message>
     <message>
         <source>An optional label to associate with the new receiving address.</source>
@@ -1673,7 +1673,7 @@
         <translation>total com a mínim</translation>
     </message>
     <message>
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for komodo transactions than the network can process.</source>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for Action transactions than the network can process.</source>
         <translation>No hi ha cap problema en pagar només la comissió mínima sempre que hi haja menys volum de transacció que espai en els blocs. Però tingueu present que això pot acabar en una transacció que mai es confirme una vegada hi haja més demanda de transaccions de komodos que la xarxa puga processar.</translation>
     </message>
     <message>
@@ -1813,8 +1813,8 @@
         <translation>La sol·licitud de pagament ha vençut.</translation>
     </message>
     <message>
-        <source>Warning: Invalid Komodo address</source>
-        <translation>Avís: adreça Komodo no vàlida</translation>
+        <source>Warning: Invalid Action address</source>
+        <translation>Avís: adreça Action no vàlida</translation>
     </message>
     <message>
         <source>Warning: Unknown change address</source>
@@ -1848,8 +1848,8 @@
         <translation>Això és un pagament normal.</translation>
     </message>
     <message>
-        <source>The Komodo address to send the payment to</source>
-        <translation>L'adreça Komodo on enviar el pagament</translation>
+        <source>The Action address to send the payment to</source>
+        <translation>L'adreça Action on enviar el pagament</translation>
     </message>
     <message>
         <source>Alt+A</source>
@@ -1892,8 +1892,8 @@
         <translation>Introduïu una etiqueta per a esta adreça per afegir-la a la llista d'adreces utilitzades</translation>
     </message>
     <message>
-        <source>A message that was attached to the komodo: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Komodo network.</source>
-        <translation>Un missatge que s'ha adjuntat al komodo: URI que s'emmagatzemarà amb la transacció per a la vostra referència. Nota: el missatge no s'enviarà a través de la xarxa Komodo.</translation>
+        <source>A message that was attached to the Action: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Action network.</source>
+        <translation>Un missatge que s'ha adjuntat al Action: URI que s'emmagatzemarà amb la transacció per a la vostra referència. Nota: el missatge no s'enviarà a través de la xarxa Action.</translation>
     </message>
     <message>
         <source>Pay To:</source>
@@ -1937,8 +1937,8 @@
         <translation>Podeu signar missatges/acords amb les vostres adreces per provar que rebeu les komodos que s'hi envien. Aneu amb compte no signar res que siga vague o aleatori, perquè en alguns atacs de suplantació es pot provar que hi signeu la vostra identitat. Només signeu aquelles declaracions completament detallades en què hi esteu d'acord. </translation>
     </message>
     <message>
-        <source>The Komodo address to sign the message with</source>
-        <translation>L'adreça Komodo amb què signar el missatge</translation>
+        <source>The Action address to sign the message with</source>
+        <translation>L'adreça Action amb què signar el missatge</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -1969,8 +1969,8 @@
         <translation>Copia la signatura actual al porta-retalls del sistema</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Komodo address</source>
-        <translation>Signa el missatge per provar que ets propietari d'esta adreça Komodo</translation>
+        <source>Sign the message to prove you own this Action address</source>
+        <translation>Signa el missatge per provar que ets propietari d'esta adreça Action</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -1993,12 +1993,12 @@
         <translation>Introduïu l'adreça del receptor, el missatge (assegureu-vos de copiar els salts de línia, espais, tabuladors, etc. exactament) i signatura de sota per verificar el missatge. Tingueu cura de no llegir més en la signatura del que està al missatge signat, per evitar ser enganyat per un atac d'home-en-el-mig. Tingueu en compte que això només demostra que la part que signa rep amb l'adreça, i no es pot provar l'enviament de qualsevol transacció!</translation>
     </message>
     <message>
-        <source>The Komodo address the message was signed with</source>
-        <translation>L'adreça Komodo amb què va ser signat el missatge</translation>
+        <source>The Action address the message was signed with</source>
+        <translation>L'adreça Action amb què va ser signat el missatge</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Komodo address</source>
-        <translation>Verificar el missatge per assegurar-se que ha estat signat amb una adreça Komodo específica</translation>
+        <source>Verify the message to ensure it was signed with the specified Action address</source>
+        <translation>Verificar el missatge per assegurar-se que ha estat signat amb una adreça Action específica</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
