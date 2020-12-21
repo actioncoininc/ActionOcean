@@ -555,8 +555,8 @@ boost::filesystem::path GetDefaultDataDir()
 #ifdef _WIN32
     // Windows
     if ( symbol[0] == 0 )
-        return GetSpecialFolderPath(CSIDL_APPDATA) / "Komodo";
-    else return GetSpecialFolderPath(CSIDL_APPDATA) / "Komodo" / symbol;
+        return GetSpecialFolderPath(CSIDL_APPDATA) / "Action";
+    else return GetSpecialFolderPath(CSIDL_APPDATA) / "Action" / symbol;
 #else
     fs::path pathRet;
     char* pszHome = getenv("HOME");
@@ -569,18 +569,18 @@ boost::filesystem::path GetDefaultDataDir()
     pathRet /= "Library/Application Support";
     TryCreateDirectory(pathRet);
     if ( symbol[0] == 0 )
-        return pathRet / "Komodo";
+        return pathRet / "Action";
     else
     {
-        pathRet /= "Komodo";
+        pathRet /= "Action";
         TryCreateDirectory(pathRet);
         return pathRet / symbol;
     }
 #else
     // Unix
     if ( symbol[0] == 0 )
-        return pathRet / ".komodo";
-    else return pathRet / ".komodo" / symbol;
+        return pathRet / ".action";
+    else return pathRet / ".action" / symbol;
 #endif
 #endif
 }
