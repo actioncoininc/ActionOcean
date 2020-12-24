@@ -1,0 +1,14 @@
+To make package:
+-After building copy Komodo-qt from src/qt to content folder and rename to action-qt-mac 
+-compress content of "content" folder in zip file.
+
+To install:
+-Extract the archive, then open a terminal window, and use the script to download the z-cash parameters by typing
+./fetch-params.sh
+
+-Once the download is complete, open the file named "action.conf" in a text editor and change the values for "rpcuser" and "rpcpassword" to some other values, save the file and close it. There is no need to remember these values.
+
+-Now, run the following command in the Terminal to create a directory named "Action" in your "Application Support" directory and move the file "action.conf" to it.
+mkdir -p ~/Library/Application\ Support/Action && cp action.conf ~/Library/Application\ Support/Action
+
+-After that, open the file named action-qt-mac in the package directory
