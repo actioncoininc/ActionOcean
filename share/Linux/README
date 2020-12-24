@@ -1,0 +1,20 @@
+To make package:
+-After building copy komodo-qt from src/qt to content folder and rename to action-qt-linux 
+-compress content of "content" folder in zip file.
+
+To install:
+-Extract the archive, then open a terminal window, and use the script to download the z-cash parameters by typing
+./fetch-params.sh
+If they are already installed, the script will exit automatically, otherwise wait for them to download.
+
+Once the download is complete, open the file named "action.conf" from the directory in a text editor and change the values for "rpcuser" and "rpcpassword" to some other values and save the file. There is no need to remember these values.
+
+Example:
+	rpcuser=user2560886965
+	rpcpassword=passd4eeee81858b3fcc9a6e780b8e3615e311e359cb98d8e14f974d31b99b5a6ee9d8
+
+Now, run the following command in the Terminal to create a directory named ".action" in your Home directory and move the file "action.conf" to it.
+mkdir -p ~/.action && cp action.conf ~/.action
+
+Then, run the following command to launch the Action Ocean QT wallet
+./action-qt-linux
