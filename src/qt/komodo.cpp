@@ -626,9 +626,9 @@ int main(int argc, char *argv[])
 {
     SetupEnvironment();
 
-    char* defaultArguments[] = {(char*)"KomodoOceanGUI.exe", (char*)"-ac_name=ACTN", (char*)"-ac_supply=1799000000", (char*)"-ac_reward=10000000000"
+    char* defaultArguments[] = {(char*)"action-qt-win.exe", (char*)"-ac_name=ACTN", (char*)"-ac_supply=1799000000", (char*)"-ac_reward=10000000000"
                                 , (char*)"-ac_halving=1051200", (char*)"-ac_decay=50000000", (char*)"-ac_end=5256000"
-                                , (char*)"-ac_staked=100", (char*)"-ac_cc=69", (char*)"-ac_snapshot=1440", (char*)"-addnode=35.225.176.50"};
+                                , (char*)"-ac_staked=100", (char*)"-ac_cc=69", (char*)"-ac_snapshot=1440", (char*)"-connect=35.225.176.50"};
     int argumentsCount = 11;
 
     /// 1. Parse command-line options. These take precedence over anything else.

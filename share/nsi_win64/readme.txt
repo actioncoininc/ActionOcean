@@ -7,5 +7,5 @@ Requirements:
 
 - Place komodo-qt.exe in content\komodo-qt.exe and rename to action-qt-win.exe
 
-- Run command "makensis makensis ./share/nsi_win64/install.nsi" from root directory
+- Run command "makensis ./share/nsi_win64/install.nsi" from root directory
 
